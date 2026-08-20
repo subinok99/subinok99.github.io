@@ -52,3 +52,23 @@
     margin-left: var(--spacer);
   }
 }
+
+.category-tabs {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.category-tabs a {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  padding-bottom: 0.5rem;
+}
+
+.category-tabs a:hover {
+  border-bottom: 2px solid currentColor;
+}
